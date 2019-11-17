@@ -26,14 +26,16 @@ const ro = createStackNavigator (
         Dzikir:{
             screen:Dzikir,
             navigationOptions:{
-                title:'Dzikir'
+                header:null
             }
         },
         Jadwal:{
             screen:Jadwal,
             navigationOptions:{
-                title:'Jadwal'
+                header:null,
+                
             }
+            
         },
         Husna:{
             screen:Husna,
@@ -42,7 +44,10 @@ const ro = createStackNavigator (
             }
         },
         Screen:{
-            screen:Screen
+            screen:Screen,
+            navigationOptions:{
+                header:null
+            }
         }
     }
 )

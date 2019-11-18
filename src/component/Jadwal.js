@@ -41,10 +41,13 @@ class Sholats extends React.Component {
       } = item
     return(
       <View>
-        
           <View style={styles.border}>
-            {}
             <Text style={styles.teksJudul}>1.  Takbiratul Ihram  : </Text>
+            <View style={{alignItems:'center'}}>
+              <Image source={{uri : 'https://ustadzrofii.files.wordpress.com/2012/09/gs-2.jpg'}}
+              style={{height:100,width:100}}
+              />
+            </View>
             <Text style={styles.Arab}>{Ihram}</Text>
             <Text style={styles.text2}> Allahu Akbar</Text>
             <View style={styles.center}>
@@ -58,6 +61,11 @@ class Sholats extends React.Component {
           </View>
           <View style={styles.line}/>
           <View style={styles.border}>
+            <View style={{alignItems:'center'}}>
+              <Image source={{uri : 'https://ustadzrofii.files.wordpress.com/2012/09/gs-6.jpg'}}
+              style={{height:100,width:100}}
+              />
+            </View>
             <Text style={styles.teksJudul}>2.  Membaca Al-Fatihah  : </Text>
             <View style={{flex:1,alignItems:'center'}}>
               <Text style={styles.text3}> "{Bisamillah}" </Text>
@@ -70,7 +78,13 @@ class Sholats extends React.Component {
           </View>
           <View style={styles.line}/>
           <View style={styles.border}>
+            
             <Text style={styles.teksJudul}>3.  Bacaan Saat Rukuk  : </Text>
+            <View style={{alignItems:'center'}}>
+              <Image source={{uri : 'https://ustadzrofii.files.wordpress.com/2012/09/gs-9.jpg'}}
+              style={{height:100,width:100}}
+              />
+            </View>
             <View>
               <Text style={styles.text2}>Baca 3x</Text>
               <Text style={styles.Arab}>{Rukuk}</Text>
@@ -80,6 +94,11 @@ class Sholats extends React.Component {
           <View style={styles.line}/>
           <View style={styles.border}>
             <Text style={styles.teksJudul}>4.  Doa Iktidal  : </Text>
+            <View style={{alignItems:'center'}}>
+              <Image source={{uri : 'https://ustadzrofii.files.wordpress.com/2012/09/gs-6.jpg'}}
+              style={{height:100,width:100}}
+              />
+            </View>
             <View>
               <Text style={styles.Arab}>{Iktidal}</Text>
               <Text style={styles.text2}>Artinya : Allah mendengar orang yang memuji-Nya</Text>
@@ -89,6 +108,11 @@ class Sholats extends React.Component {
           <View style={styles.border}>
             <Text style={styles.teksJudul}>5.  Bacaan Saat Sujud  : </Text>
             <View>
+            <View style={{alignItems:'center'}}>
+              <Image source={{uri : 'https://ustadzrofii.files.wordpress.com/2012/09/gs-12.jpg'}}
+              style={{height:100,width:100}}
+              />
+            </View>
               <Text style={styles.text2}>Baca 3x</Text>
               <Text style={styles.Arab}>{Sujud}</Text>
               <Text style={styles.text2}>Artinya : “Maha Suci Tuhanku Yang Maha Tinggi, dan dengan segala puji bagi-Nya.”</Text>
@@ -97,6 +121,14 @@ class Sholats extends React.Component {
           <View style={styles.line}/>
           <View style={styles.border}>
             <Text style={styles.teksJudul}>6.  Bacaan Saat Duduk antara Dua Sujud  : </Text>
+            <View style={{alignItems:'center',flexDirection:'row',justifyContent:'space-between'}}>
+              <Image source={{uri : 'https://ustadzrofii.files.wordpress.com/2012/09/gs-17.jpg'}}
+              style={{height:100,width:100}}
+              />
+              <Image source={{uri : 'https://ustadzrofii.files.wordpress.com/2012/09/gs-19.jpg'}}
+              style={{height:100,width:100}}
+              />
+            </View>
             <View>
               <Text style={styles.Arab}> {Duduk} </Text>
               <Text style={styles.text2}>Artinya:“Ya Allah, 
@@ -108,6 +140,11 @@ class Sholats extends React.Component {
           <View style={styles.line}/>
           <View style={styles.border}>
             <Text style={styles.teksJudul}>7.  Bacaan Saat Tahiyat Akhir  : </Text>
+            <View style={{alignItems:'center'}}>
+              <Image source={{uri : 'https://ustadzrofii.files.wordpress.com/2012/09/gs-22.jpg'}}
+              style={{height:100,width:100}}
+              />
+            </View>
             <View>
               <Text style={styles.Arab}> {Akhir} </Text>
               <Text style={styles.text2}>Artinya : “Segala kehormatan, keberkahan, rahmat dan keselamatan (shalawat), serta kebaikan hanyalah kepunyaan Allah. Keselamatan, rahmat dan berkah dari Allah semoga tetap tercurah atasmu, wahai Nabi (Muhammad). Keselamatan, rahmat dan berkah dari Allah semoga juga tercurah atas kami, dan juga atas seluruh hamba Allah yang shaleh. Aku bersaksi bahwa tiada Tuhan selain Allah dan bahwa Muhammad adalah utusan allah.”</Text>
